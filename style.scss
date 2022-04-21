@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1rem;
+    padding-left: 4rem;
+    display: flex;
+    padding-right: 4rem;
+    background: #5EBEC4;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    padding-top: 0.8rem;
+    color: #FFF3DB;
+}
+
+header nav ul {
+    padding-top: 1rem;
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    padding-right: 1.3rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #FFF3DB;
+}
+
+.authentiaction {
+    padding-top: 0.9rem;
+}
+
+.authentiaction a {
+    padding-right: 1rem;
+}
